@@ -1,0 +1,6 @@
+getIndex : length = 1000000, time (ns/s) 6340694/0. 
+getIndexDoubleFind : length = 1000000, time (ns/s) 1340586/0. 
+mySortInsert : length = 1000000, time (ns/s) 124013090987/124. compare result: null - first sort
+myBubble : length = 1000000, time (ns/s) 2451652491520/2451. compare result: true
+javaSort : length = 1000000, time (ns/s) 103902720/0. compare result: true
+mySortSelect : length = 1000000, time (ns/s) 573070611627/573. compare result: true
