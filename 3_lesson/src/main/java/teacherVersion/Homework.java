@@ -1,4 +1,6 @@
-package java_asd.three;
+package teacherVersion;
+
+import lesson.Stack;
 
 public class Homework {
 

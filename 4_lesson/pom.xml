@@ -2,19 +2,32 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.geekbrains</groupId>
-    <artifactId>algoritms</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <artifactId>algoritms</artifactId>
+        <groupId>com.geekbrains</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>4_lesson</artifactId>
+
+
     <build>
         <plugins>
+
+
             <plugin>
+                <!--При сборке в jar с использованием package мавен не добавляет манифест, для добавления используем следующий плагин-->
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <archive>
+                        <manifest>
+                            <!--С учетом пакетов если они есть-->
+                            <mainClass>home.MyLinkedList</mainClass>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
         </plugins>

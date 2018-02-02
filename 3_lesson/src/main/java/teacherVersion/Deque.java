@@ -1,4 +1,6 @@
-package java_asd.three;
+package teacherVersion;
+
+import lesson.Queue;
 
 public class Deque extends Queue {
     public Deque(int size) {
