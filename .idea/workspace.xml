@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06feac42-dd7e-408d-b5b1-127fe0766da2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/1_ht/1_ht.iml" afterPath="$PROJECT_DIR$/1_lesson_rec/1_lesson_rec.iml" />
-      <change beforePath="$PROJECT_DIR$/1_ht/ht1.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1_ht/pom.xml" afterPath="$PROJECT_DIR$/1_lesson_rec/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/1_ht/src/main/java/HT1Tilman.java" afterPath="$PROJECT_DIR$/1_lesson_rec/src/main/java/HT1Tilman.java" />
-      <change beforePath="$PROJECT_DIR$/1_ht/src/main/java/One_lecturer.java" afterPath="$PROJECT_DIR$/1_lesson_rec/src/main/java/One_lecturer.java" />
-      <change beforePath="$PROJECT_DIR$/1_ht/target/classes/HT1Tilman.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1_ht/target/classes/One_lecturer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2_lesson/2_lesson.iml" afterPath="$PROJECT_DIR$/2_lesson/2_lesson.iml" />
-      <change beforePath="$PROJECT_DIR$/2_lesson/pom.xml" afterPath="$PROJECT_DIR$/2_lesson/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/2_lesson/target/classes/Find.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2_lesson/target/classes/HT2Tilman.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2_lesson/target/classes/MyArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2_lesson/target/classes/Sorts.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/3_lesson.iml" afterPath="$PROJECT_DIR$/3_lesson/3_lesson.iml" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/pom.xml" afterPath="$PROJECT_DIR$/3_lesson/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/src/main/java/lesson/Queue.java" afterPath="$PROJECT_DIR$/3_lesson/src/main/java/lesson/Queue.java" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/src/main/java/teacherVersion/Deque.java" afterPath="$PROJECT_DIR$/3_lesson/src/main/java/teacherVersion/Deque.java" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/src/main/java/teacherVersion/Homework.java" afterPath="$PROJECT_DIR$/3_lesson/src/main/java/teacherVersion/Homework.java" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/src/main/java/teacherVersion/PriorityQueue.java" afterPath="$PROJECT_DIR$/3_lesson/src/main/java/teacherVersion/PriorityQueue.java" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/target/classes/Bracket.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/target/classes/Deque.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/target/classes/InvertString.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/target/classes/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/target/classes/PriorityQueue.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/target/classes/Queue.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3_lesson/target/classes/Stack.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4_lesson/4_lesson.iml" afterPath="$PROJECT_DIR$/4_lesson/4_lesson.iml" />
-      <change beforePath="$PROJECT_DIR$/4_lesson/pom.xml" afterPath="$PROJECT_DIR$/4_lesson/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/4_lesson/target/classes/home/MyLinkedList$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4_lesson/target/classes/home/MyLinkedList$MyIterator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4_lesson/target/classes/home/MyLinkedList$Node.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4_lesson/target/classes/home/MyLinkedList.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4_lesson/target/classes/lesson/LLIterator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4_lesson/target/classes/lesson/Node.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4_lesson/target/classes/lesson/RelatedList.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/algoritms.iml" afterPath="$PROJECT_DIR$/algoritms.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="06feac42-dd7e-408d-b5b1-127fe0766da2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/1_ht/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/2_lesson/target/" />
@@ -195,6 +153,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algoritms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algoritms" type="462c0819:PsiDirectoryNode" />
+              <item name="3_lesson" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algoritms" type="b2602c69:ProjectViewProjectNode" />
@@ -374,11 +337,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17324094" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
