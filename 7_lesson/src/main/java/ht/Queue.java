@@ -1,16 +1,18 @@
 package ht;
 
-public class Queue {
+import java.lang.reflect.Array;
+
+public class Queue <E> {
 
     private int size;
-    private int[] queue;
+    private Object[] queue;
     private int head;
     private int tail;
     private int items;
 
     public Queue(int size) {
         this.size = size;
-        this.queue = new int[size];
+        this.queue = new Object[size];
         head = 0;
         tail = -1;
         items = 0;
@@ -20,11 +22,11 @@ public class Queue {
         this.size = size;
     }
 
-    public int[] getQueue() {
-        return queue;
-    }
+//    public E[] getQueue() {
+//        return (E[])queue;
+//    }
 
-    public void setQueue(int[] queue) {
+    public void setQueue(E[] queue) {
         this.queue = queue;
     }
 
@@ -64,7 +66,7 @@ public class Queue {
         return items;
     }
 
-    public void insert(int i) {
+    public void add(E i) {
         if (isFull())
             throw new RuntimeException("lesson.Queue is full");
 
@@ -80,20 +82,20 @@ public class Queue {
 //**** Создать программу, которая переворачивает вводимые строки
 //**** Создать класс для реализации дека
 //**** Реализовать класс с реализацией приоритетной очереди
-    public int remove() {
+    public E remove() {
         if (isEmpty())
             throw new RuntimeException("lesson.Queue is empty");
 
-        int temp = queue[head++];
+        Object temp = queue[head++];
         if (head == size)
             head = 0;
 
         items--;
-        return temp;
+        return (E)temp;
     }
 
-    public int peek() {
-        return queue[head];
+    public E peek() {
+        return (E)queue[head];
     }
 
 }
