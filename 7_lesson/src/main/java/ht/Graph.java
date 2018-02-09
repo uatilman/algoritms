@@ -1,6 +1,4 @@
-package lesson;
-
-
+package ht;
 
 
 public class Graph {
@@ -14,7 +12,8 @@ public class Graph {
         adjMatrix = new int[MAX_VERTS][MAX_VERTS];
         this.size = 0;
     }
-// 20:35
+
+    // 20:35
     public void addVertex(char label) {
         vertices[size++] = new Vertex(label);
     }
@@ -22,6 +21,12 @@ public class Graph {
     public void addEdge(int start, int end) {
         adjMatrix[start][end] = 1;
         adjMatrix[end][start] = 1;
+    }
+
+
+    public void addEdge(int start, int end, int length) {
+        adjMatrix[start][end] = length;
+        adjMatrix[end][start] = length;
     }
 
     public void showVertex(int vertex) {
@@ -36,6 +41,7 @@ public class Graph {
         }
         return -1;
     }
+
 
     public void depthTravers() {
         Stack stack = new Stack(MAX_VERTS);
@@ -57,6 +63,30 @@ public class Graph {
         }
     }
 
+    public void widthTraversFind(char value) {
+        if (vertices[0].equals(value)) {
+
+        }
+
+        Queue queue = new Queue(MAX_VERTS);
+        vertices[0].wasVisited = true;
+        showVertex(0);
+        queue.insert(0);
+        while (!queue.isEmpty()) {
+            int v1 = queue.remove();
+            int v2;
+            while ((v2 = getUncheckedVertex(v1)) != -1) {
+                vertices[v2].wasVisited = true;
+                showVertex(v2);
+                queue.insert(v2);
+            }
+        }
+
+        for (int i = 0; i < size; i++) {
+            vertices[i].wasVisited = false;
+        }
+    }
+
     public void widthTravers() {
         Queue queue = new Queue(MAX_VERTS);
         vertices[0].wasVisited = true;
@@ -71,6 +101,7 @@ public class Graph {
                 queue.insert(v2);
             }
         }
+
         for (int i = 0; i < size; i++) {
             vertices[i].wasVisited = false;
         }
