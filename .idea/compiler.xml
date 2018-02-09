@@ -10,6 +10,8 @@
         <module name="2_lesson" />
         <module name="3_lesson" />
         <module name="4_lesson" />
+        <module name="6_lesson" />
+        <module name="7_lesson" />
         <module name="_1_lesson_rec" />
         <module name="algoritms (1)" />
         <module name="algotritms" />
@@ -21,6 +23,8 @@
       <module name="2_lesson" target="1.8" />
       <module name="3_lesson" target="1.8" />
       <module name="4_lesson" target="1.8" />
+      <module name="6_lesson" target="1.8" />
+      <module name="7_lesson" target="1.8" />
       <module name="_1_lesson_rec" target="1.8" />
       <module name="algoritms" target="1.8" />
       <module name="algoritms (1)" target="1.8" />
