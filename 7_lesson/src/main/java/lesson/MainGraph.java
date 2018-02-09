@@ -1,4 +1,5 @@
-package java_asd.seven;
+package lesson;
+
 
 public class MainGraph {
     public static void main(String[] args) {

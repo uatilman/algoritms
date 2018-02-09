@@ -1,4 +1,4 @@
-package java_asd.seven;
+package lesson;
 
 public class Vertex {
     public char label;

@@ -1,7 +1,7 @@
-package java_asd.seven;
+package lesson;
 
-import java_asd.three.Queue;
-import java_asd.three.Stack;
+
+
 
 public class Graph {
     private static final int MAX_VERTS = 32;
