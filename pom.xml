@@ -13,7 +13,8 @@
         <module>3_lesson</module>
         <module>4_lesson</module>
         <module>1_lesson_rec</module>
-        <module>5_lesson</module>
+        <module>6_lesson</module>
+        <module>7_lesson</module>
     </modules>
     <packaging>pom</packaging>
     <build>
